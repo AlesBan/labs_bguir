@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_5_TvShop", "Lab_5_TvShop\Lab_5_TvShop.csproj", "{73985B89-0DF5-495E-9865-741542D67ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_5_ComputerPurchase", "Lab_5_ComputerPurchase\Lab_5_ComputerPurchase.csproj", "{CE192081-9D81-4DFB-A348-5CEB810D51D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73985B89-0DF5-495E-9865-741542D67ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73985B89-0DF5-495E-9865-741542D67ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73985B89-0DF5-495E-9865-741542D67ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73985B89-0DF5-495E-9865-741542D67ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE192081-9D81-4DFB-A348-5CEB810D51D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE192081-9D81-4DFB-A348-5CEB810D51D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE192081-9D81-4DFB-A348-5CEB810D51D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE192081-9D81-4DFB-A348-5CEB810D51D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
