@@ -23,13 +23,13 @@ namespace Laba_5_TvSales
             
             while (true)
             {
-                Console.WriteLine("Welcome to our amazing TV store!");
-                Console.WriteLine("How can I assist you today?");
-                Console.WriteLine("1. View the list of available TVs");
+                Console.WriteLine("How can I help you?");
+                Console.WriteLine("1. Display available Tvs");
                 Console.WriteLine("2. Purchase a TV");
                 Console.WriteLine("3. Add new TVs to the inventory");
                 Console.WriteLine("4. Exit the store");
                 Console.Write("Enter your choice: ");
+                
                 var choice = Console.ReadLine();
 
                 if (choice == "1")

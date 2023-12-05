@@ -21,9 +21,9 @@ namespace Laba_5_ByingComps
 
             while (true)
             {
-                Console.WriteLine("What can I do for you?");
-                Console.WriteLine("1. Show available computers");
-                Console.WriteLine("2. Order computers");
+                Console.WriteLine("How can I help you?");
+                Console.WriteLine("1. Display available computers");
+                Console.WriteLine("2. Place an order for computers");
                 Console.WriteLine("3. Remove computers from the warehouse");
                 Console.WriteLine("4. Exit");
 
