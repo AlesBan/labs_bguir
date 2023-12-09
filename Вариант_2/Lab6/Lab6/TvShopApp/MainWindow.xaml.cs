@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Lab6_TvShopApp
+namespace TvShopApp
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
