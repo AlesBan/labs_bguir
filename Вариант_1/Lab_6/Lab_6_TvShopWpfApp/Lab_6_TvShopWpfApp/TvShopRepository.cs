@@ -6,6 +6,7 @@ using System.Text.Json;
 using Lab_5_TvShop.Models;
 using Lab_6_TvShopWpfApp.Exceptions;
 using Lab_6_TvShopWpfApp.Interfaces;
+using Lab_6_TvShopWpfApp.Models;
 
 namespace Lab_6_TvShopWpfApp
 {
@@ -229,7 +230,6 @@ namespace Lab_6_TvShopWpfApp
 
                 var json = JsonSerializer.Serialize(tvBoxList);
                 File.WriteAllText(_filePath, json);
-                Output("Объекты TvBox успешно записаны в файл.");
             }
             catch (Exception ex)
             {

@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Lab_5_TvShop.Models;
+using Lab_6_TvShopWpfApp.Models;
 
 namespace Lab_6_TvShopWpfApp.Interfaces
 {

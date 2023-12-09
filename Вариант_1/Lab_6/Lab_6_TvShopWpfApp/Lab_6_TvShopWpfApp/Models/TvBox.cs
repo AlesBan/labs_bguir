@@ -1,4 +1,4 @@
-namespace Lab_5_TvShop.Models
+namespace Lab_6_TvShopWpfApp.Models
 {
     public class TvBox
     {

@@ -1,6 +1,6 @@
-﻿using System.Windows;
+﻿using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
-using Lab_5_TvShop.Models;
 using Lab_6_TvShopWpfApp.Logging;
 using Lab_6_TvShopWpfApp.Models;
 
@@ -23,64 +23,90 @@ namespace Lab_6_TvShopWpfApp
             _tvShopRepository.ParseTvTitlesAndAddTvBoxes();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
             var button = (Button)sender;
 
             switch (button.Name)
             {
                 case "ShowAllButton":
-                    OutputTextBox.Text = "";
-                    var availableTvs = _tvShopManager.GetAllTvs();
-                    OutputTextBox.Text = "Available TVs:\n";
-                    foreach (var tvBox in availableTvs)
-                    {
-                        OutputTextBox.Text += tvBox.Info() + "\n";
-                    }
+                    await ShowAllTvsAsync();
                     break;
 
                 case "BuyButton":
-                    OutputTextBox.Text = "";
                     Customer.BuyTvs(_tvShopManager, _tvShopRepository, _salesLogger);
+                    await Task.Delay(1000);
+                    await ShowAllTvsAsync();
                     break;
 
                 case "AddButton":
-                    OutputTextBox.Text = "";
-
-                    var newTvTitle = Microsoft.VisualBasic.Interaction.InputBox("Enter TV Title:", "Add TV");
-                    var newTvPriceStr = Microsoft.VisualBasic.Interaction.InputBox("Enter TV Price:", "Add TV");
-                    var newTvQuantityStr = Microsoft.VisualBasic.Interaction.InputBox("Enter TV Quantity:", "Add TV");
-
-                    if (string.IsNullOrEmpty(newTvTitle) || string.IsNullOrEmpty(newTvPriceStr) || string.IsNullOrEmpty(newTvQuantityStr))
-                    {
-                        MessageBox.Show("Please enter all the required information.", "Invalid data", MessageBoxButton.OK, MessageBoxImage.Warning);
-                        break;
-                    }
-
-                    if (int.TryParse(newTvPriceStr, out int newTvPrice) && int.TryParse(newTvQuantityStr, out int newTvQuantity))
-                    {
-                        var newTvBox = new TvBox
-                        {
-                            TvTitle = newTvTitle,
-                            Price = newTvPrice,
-                            Count = newTvQuantity
-                        };
-
-                        _tvShopManager.AddTvBox(newTvBox);
-                        OutputTextBox.Text = "New TV added to inventory!";
-                    }
-                    else
-                    {
-                        OutputTextBox.Text = "Invalid data!";
-                    }
+                    await AddNewTvAsync();
                     break;
-                
+
                 case "ExitButton":
-                    OutputTextBox.Text = "";
-                    OutputTextBox.Text = "Thank you for visiting our TV shop. Goodbye!";
-                    Close();
+                    await ExitApplicationAsync();
                     break;
             }
+        }
+
+        private Task ShowAllTvsAsync()
+        {
+            OutputTextBox.Text = "";
+            var availableTvs = _tvShopManager.GetAllTvs();
+            OutputTextBox.Text = "Доступные телевизоры:\n";
+            foreach (var tvBox in availableTvs)
+            {
+                OutputTextBox.Text += tvBox.Info() + "\n";
+            }
+
+            return Task.CompletedTask;
+        }
+
+        private async Task AddNewTvAsync()
+        {
+            var newTvTitle =
+                Microsoft.VisualBasic.Interaction.InputBox("Введите название телевизора:", "Добавление телевизора");
+            var newTvPriceStr =
+                Microsoft.VisualBasic.Interaction.InputBox("Введите цену телевизора:", "Добавление телевизора");
+            var newTvQuantityStr =
+                Microsoft.VisualBasic.Interaction.InputBox("Введите количество телевизоров:", "Добавление телевизора");
+
+            if (string.IsNullOrEmpty(newTvTitle) || string.IsNullOrEmpty(newTvPriceStr) ||
+                string.IsNullOrEmpty(newTvQuantityStr))
+            {
+                MessageBox.Show("Пожалуйста, введите всю необходимую информацию.", "Неверные данные",
+                    MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (int.TryParse(newTvPriceStr, out var newTvPrice) &&
+                int.TryParse(newTvQuantityStr, out int newTvQuantity))
+            {
+                var newTvBox = new TvBox
+                {
+                    TvTitle = newTvTitle,
+                    Price = newTvPrice,
+                    Count = newTvQuantity
+                };
+
+                _tvShopManager.AddTvBox(newTvBox);
+                OutputTextBox.Text = "Новый телевизор добавлен в инвентарь!";
+            }
+            else
+            {
+                OutputTextBox.Text = "Неверные данные!";
+            }
+
+            await Task.Delay(1000);
+            await ShowAllTvsAsync();
+        }
+
+        private Task ExitApplicationAsync()
+        {
+            OutputTextBox.Text = "";
+            OutputTextBox.Text = "Спасибо за посещение нашего магазина телевизоров. До свидания!";
+            Close();
+            return Task.CompletedTask;
         }
     }
 }

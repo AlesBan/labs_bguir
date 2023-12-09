@@ -16,16 +16,15 @@ namespace Lab_6_TvShopWpfApp.Models
 
             while (true)
             {
-                string tvTitle;
                 TvBox? selectedTvBox = null;
 
                 while (selectedTvBox == null)
                 {
-                    tvTitle = Microsoft.VisualBasic.Interaction.InputBox(
-                        "Введите название телевизора, который вы хотите купить (или 'q' для завершения покупки):",
-                        "Выбор телевизора", "");
+                    var tvTitle = Microsoft.VisualBasic.Interaction.InputBox(
+                        "Введите название телевизора, который вы хотите купить:",
+                        "Выбор телевизора");
 
-                    if (tvTitle == "q")
+                    if (string.IsNullOrEmpty(tvTitle))
                     {
                         break;
                     }
@@ -34,7 +33,8 @@ namespace Lab_6_TvShopWpfApp.Models
 
                     if (selectedTvBox == null)
                     {
-                        MessageBox.Show("Некорректное название телевизора!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                        MessageBox.Show("Некорректное название телевизора!", "Ошибка", MessageBoxButton.OK,
+                            MessageBoxImage.Error);
                     }
                 }
 
@@ -43,19 +43,28 @@ namespace Lab_6_TvShopWpfApp.Models
                     break;
                 }
 
-                MessageBox.Show($"Название: {selectedTvBox.TvTitle}\nЦена: {selectedTvBox.Price}\nКоличество на складе: {selectedTvBox.Count}", "Информация о телевизоре", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(
+                    $"Название: {selectedTvBox.TvTitle}\nЦена: {selectedTvBox.Price}\nКоличество на складе: {selectedTvBox.Count}",
+                    "Информация о телевизоре", MessageBoxButton.OK, MessageBoxImage.Information);
 
                 int quantity;
                 while (true)
                 {
-                    var input = Microsoft.VisualBasic.Interaction.InputBox("Введите количество, которое вы хотите купить:", "Количество", "");
+                    var input = Microsoft.VisualBasic.Interaction.InputBox(
+                        $"Введите количество, которое вы хотите купить:\n" +
+                        $"Доступно: {selectedTvBox.Count}", "Количество",
+                        "");
+
                     if (!int.TryParse(input, out quantity) || quantity <= 0)
                     {
-                        MessageBox.Show("Некорректное количество!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                        MessageBox.Show("Некорректное количество!", "Ошибка", MessageBoxButton.OK,
+                            MessageBoxImage.Error);
                     }
                     else if (quantity > selectedTvBox.Count)
                     {
-                        MessageBox.Show("Указанное количество превышает доступное количество на складе. Пожалуйста, выберите меньшее количество.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                        MessageBox.Show(
+                            "Указанное количество превышает доступное количество на складе. Пожалуйста, выберите меньшее количество.",
+                            "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                     }
                     else
                     {
@@ -68,9 +77,11 @@ namespace Lab_6_TvShopWpfApp.Models
                     .ToList();
 
                 selectedTvs.AddRange(tvsToBuy);
-                MessageBox.Show($"Выбрано: {quantity}\nОбщая стоимость: {selectedTvBox.Price * quantity}", "Телевизоры добавлены", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show($"Выбрано: {quantity}\nОбщая стоимость: {selectedTvBox.Price * quantity}",
+                    "Телевизоры добавлены", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                var response = MessageBox.Show("Хотите продолжить выбор телевизоров?", "Продолжить выбор", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                var response = MessageBox.Show("Хотите продолжить выбор телевизоров?", "Продолжить выбор",
+                    MessageBoxButton.YesNo, MessageBoxImage.Question);
                 if (response == MessageBoxResult.No)
                 {
                     break;
@@ -84,13 +95,16 @@ namespace Lab_6_TvShopWpfApp.Models
                 {
                     selectedTvInfo += $"Название: {tv.Title}, Цена: {tv.Price}\n";
                 }
+
                 selectedTvInfo += "Общая стоимость: " + selectedTvs.Sum(tv => tv.Price);
 
-                var confirmResponse = MessageBox.Show(selectedTvInfo, "Подтвердить покупку", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                var confirmResponse = MessageBox.Show(selectedTvInfo, "Подтвердить покупку", MessageBoxButton.YesNo,
+                    MessageBoxImage.Question);
                 if (confirmResponse == MessageBoxResult.Yes)
                 {
                     saleManager.SellTvs(selectedTvs);
-                    MessageBox.Show("Покупка успешно завершена!", "Покупка завершена", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Покупка успешно завершена!", "Покупка завершена", MessageBoxButton.OK,
+                        MessageBoxImage.Information);
 
                     var tvTitleList = selectedTvs.Select(tv => tv.Title).ToList();
                     var totalPrice = selectedTvs.Sum(tv => tv.Price);
@@ -98,12 +112,14 @@ namespace Lab_6_TvShopWpfApp.Models
                 }
                 else
                 {
-                    MessageBox.Show("Покупка отменена.", "Отмена покупки", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Покупка отменена.", "Отмена покупки", MessageBoxButton.OK,
+                        MessageBoxImage.Information);
                 }
             }
             else
             {
-                MessageBox.Show("Вы не выбрали ни одного телевизора. Покупка отменена.", "Отмена покупки", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Вы не выбрали ни одного телевизора. Покупка отменена.", "Отмена покупки",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
     }
