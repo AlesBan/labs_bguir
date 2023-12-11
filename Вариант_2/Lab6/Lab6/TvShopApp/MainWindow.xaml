@@ -40,7 +40,7 @@
 
         <StackPanel Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"
                     Margin="10">
-            <Button Content="Bye" Style="{StaticResource ButtonStyle}" Click="PurchaseButton_Click" />
+            <Button Content="Buy" Style="{StaticResource ButtonStyle}" Click="PurchaseButton_Click" />
             <Button Content="Add Tv" Style="{StaticResource ButtonStyle}" Click="AddTvButton_Click" />
             <Button Content="Exit" Style="{StaticResource ButtonStyle}" Click="ExitButton_Click" />
         </StackPanel>
