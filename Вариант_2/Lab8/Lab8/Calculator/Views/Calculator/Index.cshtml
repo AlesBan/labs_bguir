@@ -1,0 +1,107 @@
+﻿@{
+    ViewData["Title"] = "Калькулятор";
+}
+
+<style>
+    .calculator {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+
+    .calculator input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    .calculator .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    .calculator .row button {
+        width: 48%;
+        height: 40px;
+        margin: 0;
+        font-size: 18px;
+        background-color: #337ab7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .calculator .row button:hover {
+        background-color: #23527c;
+    }
+
+    .calculator #result {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+</style>
+
+<div class="calculator">
+    <h1>Калькулятор</h1>
+    <input type="text" id="expression" placeholder="Введите выражение" />
+    <br>
+    <div class="row">
+        <button onclick="addToExpression('+')">+</button>
+        <button onclick="addToExpression('-')">-</button>
+    </div>
+    <div class="row">
+        <button onclick="addToExpression('*')">*</button>
+        <button onclick="addToExpression('/')">/</button>
+    </div>
+    <br>
+    <button onclick="calculateExpression()">Вычислить</button>
+    <button onclick="clearExpression()">Очистить</button>
+    <br>
+    <h2 id="result"></h2>
+</div>
+
+<script>
+    function addToExpression(symbol) {
+        var expressionInput = document.getElementById('expression');
+        expressionInput.value += symbol;
+        expressionInput.focus();
+    }
+
+    function calculateExpression() {
+        var expressionInput = document.getElementById('expression');
+        var expression = expressionInput.value;
+
+        if (expression) {
+            var formData = new FormData();
+            formData.append('expression', expression);
+
+            fetch('/Calculator/Calculate', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                var resultElement = document.getElementById('result');
+                resultElement.innerText = "Результат: " + data.result;
+            })
+            .catch(error => {
+                console.error('Ошибка:', error);
+            });
+        }
+    }
+
+    function clearExpression() {
+        var expressionInput = document.getElementById('expression');
+        var resultElement = document.getElementById('result');
+        expressionInput.value = '';
+        resultElement.innerText = '';
+        expressionInput.focus();
+    }
+</script>

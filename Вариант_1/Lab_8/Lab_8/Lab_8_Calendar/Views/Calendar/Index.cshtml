@@ -1,0 +1,61 @@
+@{
+    ViewData["Title"] = "Calendar";
+}
+
+<style>
+    .date-time-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .date-time-label {
+        font-size: 20px;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Calendar</h1>
+</div>
+
+<div class="date-time-container">
+    <label class="date-time-label">
+        <input type="checkbox" id="showDateCheckbox" checked="checked" />
+        Show Date
+    </label>
+
+    <label class="date-time-label">
+        <input type="checkbox" id="showTimeCheckbox" checked="checked" />
+        Show Time
+    </label>
+</div>
+
+<div class="text-center">
+    <p id="dateDisplay" style="display: block;">Date: @DateTime.Now.ToShortDateString()</p>
+    <p id="timeDisplay" style="display: block;">Time: @DateTime.Now.ToShortTimeString()</p>
+</div>
+
+<script>
+    const showDateCheckbox = document.getElementById('showDateCheckbox');
+    const showTimeCheckbox = document.getElementById('showTimeCheckbox');
+    const dateDisplay = document.getElementById('dateDisplay');
+    const timeDisplay = document.getElementById('timeDisplay');
+
+    showDateCheckbox.addEventListener('change', function () {
+        toggleDate();
+    });
+
+    showTimeCheckbox.addEventListener('change', function () {
+        toggleTime();
+    });
+
+    function toggleDate() {
+        dateDisplay.style.display = showDateCheckbox.checked ? 'block' : 'none';
+    }
+
+    function toggleTime() {
+        timeDisplay.style.display = showTimeCheckbox.checked ? 'block' : 'none';
+    }
+
+    toggleDate();
+    toggleTime();
+</script>
