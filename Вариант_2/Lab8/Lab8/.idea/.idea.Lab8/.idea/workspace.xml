@@ -7,216 +7,14 @@
     <projectFile profileName="IIS Express">Calendar/Calendar.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eced2efa-317d-4683-b6ac-6dc7b1869fc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/.idea/.idea.Lab_8/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/.idea/.idea.Lab_8/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/.idea/.idea.Lab_8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/.idea/.idea.Lab_8/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Controllers/CalculatorController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Lab_8_Calculator.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Views/Calculator/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Views/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calculator/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Controllers/CalendarController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Lab_8_Calendar.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Views/Calendar/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Views/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/Lab_8_Calendar/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Вариант_1/Lab_8/Lab_8/global.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab6/Lab6/.idea/.idea.Lab6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab8/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab8/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Calendar.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Controllers/CalendarController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Views/Calendar/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calendar/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab8.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-    </list>
+    <list default="true" id="eced2efa-317d-4683-b6ac-6dc7b1869fc2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Прога/BGUIR_Labs/labs_bguir/Вариант_2/Lab8/Lab8/Calculator/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -306,8 +104,30 @@
       <updated>1702376061453</updated>
       <workItem from="1702376075784" duration="738000" />
       <workItem from="1702492725611" duration="2000" />
-      <workItem from="1702750692883" duration="2097000" />
+      <workItem from="1702750692883" duration="2360000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab 8 var 2">
+      <created>1702752863203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702752863203</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Startup.cs var2 lab8">
+      <created>1702752915431</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702752915432</updated>
+    </task>
+    <task id="LOCAL-00003" summary="del jquery files var2">
+      <created>1702753049871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702753049871</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +147,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initialize lab8 var2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize lab8 var2" />
+    <MESSAGE value="Lab 8 var 2" />
+    <MESSAGE value="Startup.cs var2 lab8" />
+    <MESSAGE value="del jquery files var2" />
+    <option name="LAST_COMMIT_MESSAGE" value="del jquery files var2" />
   </component>
 </project>
