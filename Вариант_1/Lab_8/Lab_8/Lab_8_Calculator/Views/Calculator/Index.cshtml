@@ -1,0 +1,51 @@
+@model double?
+
+<style>
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    form {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    input[type="number"], select {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+
+<h1>Calculator</h1>
+
+<form method="post" action="/Calculator/Calculate">
+    <input type="number" step="any" name="num1" placeholder="Number 1" required />
+    <select name="operation" required>
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+    </select>
+    <input type="number" step="any" name="num2" placeholder="Number 2" required />
+
+    <button type="submit">Calculate</button>
+</form>
+
+@if (ViewBag.Result != null)
+{
+    <h2>Result: @ViewBag.Result</h2>
+}

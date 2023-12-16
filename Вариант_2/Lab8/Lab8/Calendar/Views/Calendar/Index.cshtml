@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Calendar";
+}
+
+<h1>Calendar Page</h1>
+
+<form id="calendarForm">
+    <label for="showDateCheckbox">Show Date</label>
+    <input type="checkbox" id="showDateCheckbox" name="showDate" />
+
+    <label for="showTimeCheckbox">Show Time</label>
+    <input type="checkbox" id="showTimeCheckbox" name="showTime" />
+
+    <button type="submit" id="submitButton">Submit</button>
+</form>
+
+<div id="resultContainer" style="display: none;">
+    <div id="dateResult"></div>
+    <div id="timeResult"></div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById("calendarForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            var showDate = document.getElementById("showDateCheckbox").checked;
+            var showTime = document.getElementById("showTimeCheckbox").checked;
+
+            var dateResult = document.getElementById("dateResult");
+            var timeResult = document.getElementById("timeResult");
+            var resultContainer = document.getElementById("resultContainer");
+
+            dateResult.innerHTML = "";
+            timeResult.innerHTML = "";
+
+            if (showDate) {
+                var currentDate = new Date();
+                var formattedDate = currentDate.toLocaleDateString();
+                dateResult.innerHTML = "Current Date: " + formattedDate;
+            }
+
+            if (showTime) {
+                var currentTime = new Date();
+                var formattedTime = currentTime.toLocaleTimeString();
+                timeResult.innerHTML = "Current Time: " + formattedTime;
+            }
+
+            if (showDate || showTime) {
+                resultContainer.style.display = "block";
+            } else {
+                resultContainer.style.display = "none";
+            }
+        });
+    </script>
+}
